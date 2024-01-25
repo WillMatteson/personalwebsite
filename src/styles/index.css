@@ -14,7 +14,7 @@ body {
 }
 /* Background for Desktop You can modify it any time */
 .custom-bg {
-  background-image: url("./Clouds.png");
+  background-image: url("/Clouds.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
