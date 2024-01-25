@@ -74,7 +74,7 @@ const Riot = () => {
                         <Styleda href=''>Link 1</Styleda>
                     </Styledli>
                 </ul>
-                <StyledVideo src="./cards.webm" autoPlay muted loop controls></StyledVideo>
+                <StyledVideo src="./cards.mp4" autoPlay muted loop controls></StyledVideo>
             </div>
 
         </div>
