@@ -1,9 +1,9 @@
 {
   "name": "new-desk",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://willmatteson.github.io/personalwebsite/",
+  "homepage": "https://willmatteson.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
