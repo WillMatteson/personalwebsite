@@ -6,9 +6,9 @@ const TopImageWrapper = styled.div`
    align-items: center;
    flex-direction: column;
    justify-content: center;
-   margin: 20px 0px;
-   gap: 20px;
-   margin-bottom: 20px;
+   margin: 0px 0px;
+   gap: 10px;
+   margin-bottom: 10px;
 `
 const StyledImage = styled.img`
   max-width: 150px;
@@ -18,7 +18,7 @@ const StyledTitleSubTitleDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px !important;
+  gap: 0px !important;
 `
 const StyledParagraph = styled.p`
  
@@ -44,37 +44,30 @@ const StyledVideo = styled.video`
   max-width: 100%;
   margin-top: 30px;
 `
-
+const StyledIframe = styled.iframe`
+  width: 100%;
+  height: 300px; // Adjust the height as needed
+  border: none;
+  padding: 0px !important;
+  margin: 0px 0px;
+`;
 
 const Riot = () => {
     return (
         <div>
             <TopImageWrapper >
-                <StyledImage className='' src='./Riot_logo.png' />
+                <StyledImage className='' src='./Riot2.png' />
                 <StyledTitleSubTitleDiv>
-                    <StyledParagraph >Role - Company (Riot)</StyledParagraph>
-                    <StyledParagraph>Date - Date</StyledParagraph>
+                    <StyledParagraph >Strategy & Product - Riot Games</StyledParagraph>
+                    <StyledParagraph>11/2020 - 04/2022, Los Angeles CA</StyledParagraph>
                 </StyledTitleSubTitleDiv>
             </TopImageWrapper>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, qui voluptatem, quia dolor ullam eligendi sapiente, esse fugiat aliquam perferendis consectetur obcaecati magni. Ab suscipit, porro similique eos sunt expedita.
             </p>
             <div>
-                <h4>
-                    Selected Projects
-                </h4>
-                <ul>
-                    <Styledli>
-                        <Styleda href=''>Link 1</Styleda>
-                    </Styledli>
-                    <Styledli>
-                        <Styleda href=''>Link 1</Styleda>
-                    </Styledli>
-                    <Styledli>
-                        <Styleda href=''>Link 1</Styleda>
-                    </Styledli>
-                </ul>
-                <StyledVideo src="./cards.mp4" autoPlay muted loop controls></StyledVideo>
+                
+                <StyledVideo src="./arcane.mp4" autoplay muted loop controls></StyledVideo>
             </div>
 
         </div>

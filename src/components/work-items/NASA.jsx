@@ -6,9 +6,9 @@ const TopImageWrapper = styled.div`
    align-items: center;
    flex-direction: column;
    justify-content: center;
-   margin: 20px 0px;
-   gap: 20px;
-   margin-bottom: 20px;
+   margin: 0px 0px;
+   gap: 10px;
+   margin-bottom: 10px;
 `
 const StyledImage = styled.img`
   max-width: 150px;
@@ -18,7 +18,7 @@ const StyledTitleSubTitleDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px !important;
+  gap: 0px !important;
 `
 const StyledParagraph = styled.p`
  
@@ -29,9 +29,14 @@ const Styledli = styled.li`
   padding: 0px !important;
   margin: 0px 0px !important;
 `
-const Styledh5 = styled.h5`
+const Styleda = styled.a`
   padding: 0px !important;
   margin: 0px 0px !important;
+  color: black !important;
+  text-decoration: none;
+  font-weight: 600 !important;
+  font-size: 13px;
+  cursor: pointer;
 `
 
 const NASA = () => {
@@ -40,29 +45,21 @@ const NASA = () => {
             <TopImageWrapper >
                 <StyledImage className='' src='./NASA_logo.png' />
                 <StyledTitleSubTitleDiv>
-                    <StyledParagraph >Role - Company (NASA)</StyledParagraph>
-                    <StyledParagraph>Date - Date</StyledParagraph>
+                    <StyledParagraph >SWE intern - NASA</StyledParagraph>
+                    <StyledParagraph>09/17 - 01/18, Houston (Johnson Space Center)</StyledParagraph>
                 </StyledTitleSubTitleDiv>
             </TopImageWrapper>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, qui voluptatem, quia dolor ullam eligendi sapiente, esse fugiat aliquam perferendis consectetur obcaecati magni. Ab suscipit, porro similique eos sunt expedita.
-            </p>
-            <div>
-                <h4>
-                    Selected Projects
-                </h4>
-                <ul>
-                    <Styledli>
-                        <Styleda href=''>Link 1</Styleda>
-                    </Styledli>
-                    <Styledli>
-                        <Styleda href=''>Link 1</Styleda>
-                    </Styledli>
-                    <Styledli>
-                        <Styleda href=''>Link 1</Styleda>
-                    </Styledli>
-                </ul>
-            </div>
+  After my junior year of college, I took a leave of absence for an internship at NASA.
+  <ul>
+    <li><strong>Department:</strong> Mission Planning Group</li>
+    <li><strong>Responsibilities:</strong> Writing code for spaceship launch protocols.</li>
+    <li><strong>Project:</strong> Boeing Starliner</li>
+    <li><strong>Note:</strong> I got to meet a bunch of astronauts.</li>
+  </ul>
+</p>
+          
+            
 
         </div>
     )

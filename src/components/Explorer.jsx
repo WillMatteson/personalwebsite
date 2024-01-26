@@ -50,12 +50,12 @@ function Explorer({ closeExplorer, isMobile, openNotepad }) {
                 <FilesWrapper>
                     <StyledItem onClick={() => openNotepad("Polygon")}>
                         {/* You can change this ny replacing the file Item1.png in public folder with any logo image of same size */}
-                        <img src="./Polygon_icon.png" style={{ maxWidth: "50px" }} alt="" />
+                        <img src="./polygon.svg" style={{ maxWidth: "50px" }} alt="" />
                         <StyledSpan>Polygon.txt</StyledSpan>
                     </StyledItem>
                     <StyledItem onClick={() => openNotepad("Riot")}>
                         {/* You can change this ny replacing the file Riot.png in public folder with any logo image of same size */}
-                        <img src="./Riot_icon.png" style={{ maxWidth: "50px" }} alt="" />
+                        <img src="./Riot1.png" style={{ maxWidth: "50px" }} alt="" />
                         <StyledSpan>Riot Games.txt</StyledSpan>
                     </StyledItem>
                     <StyledItem onClick={() => openNotepad("Bain")}>

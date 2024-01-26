@@ -6,9 +6,9 @@ const TopImageWrapper = styled.div`
    align-items: center;
    flex-direction: column;
    justify-content: center;
-   margin: 20px 0px;
-   gap: 20px;
-   margin-bottom: 20px;
+   margin: 0px 0px;
+   gap: 10px;
+   margin-bottom: 10px;
 `
 const StyledImage = styled.img`
   max-width: 150px;
@@ -18,12 +18,11 @@ const StyledTitleSubTitleDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px !important;
+  gap: 0px !important;
 `
 const StyledParagraph = styled.p`
  
   padding: 0px !important;
-  font-weight: bold;
   margin: 0px 0px !important;
 `
 const Styledli = styled.li`
@@ -35,7 +34,7 @@ const Styleda = styled.a`
   margin: 0px 0px !important;
   color: black !important;
   text-decoration: none;
-  //font-weight: 600 !important;
+  font-weight: 600 !important;
   font-size: 13px;
   cursor: pointer;
 `
@@ -47,7 +46,7 @@ const Bain = () => {
                 <StyledImage className='' src='./Bain_logo.png' />
                 <StyledTitleSubTitleDiv>
                     <StyledParagraph >Consultant - Bain & Company</StyledParagraph>
-                    <StyledParagraph>09/18 - 11/20, Chicago</StyledParagraph>
+                    <StyledParagraph>09/18 - 11/20, Chicago IL</StyledParagraph>
                 </StyledTitleSubTitleDiv>
             </TopImageWrapper>
             <p>

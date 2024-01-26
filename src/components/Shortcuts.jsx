@@ -43,7 +43,7 @@ function Shortcuts({ openNotepad, openExlorer, isMobile }) {
                     <Gcdef100/>
                     <div>Skills</div>
                 </StyledShorcut>
-                <StyledShorcut onClick={() => openNotepad("Writing")} >
+                <StyledShorcut onClick={() => openNotepad("Misc")} >
                     <Folder/>
                     <div>Misc.</div>
                 </StyledShorcut>

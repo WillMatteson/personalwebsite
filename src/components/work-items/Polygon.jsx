@@ -6,9 +6,9 @@ const TopImageWrapper = styled.div`
    align-items: center;
    flex-direction: column;
    justify-content: center;
-   margin: 20px 0px;
-   gap: 20px;
-   margin-bottom: 20px;
+   margin: 0px 0px;
+   gap: 10px;
+   margin-bottom: 10px;
 `
 const StyledImage = styled.img`
   max-width: 150px;
@@ -18,7 +18,7 @@ const StyledTitleSubTitleDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px !important;
+  gap: 0px !important;
 `
 const StyledParagraph = styled.p`
  
@@ -43,31 +43,19 @@ const Polygon = () => {
     return (
         <div>
             <TopImageWrapper >
-                <StyledImage className='' src='./Polygon_logo.png' />
+                <StyledImage className='' src='./polygon.svg' />
                 <StyledTitleSubTitleDiv>
-                    <StyledParagraph >Role - Company </StyledParagraph>
-                    <StyledParagraph>Date - Date</StyledParagraph>
+                    <StyledParagraph >Senior Director - Polygon Labs </StyledParagraph>
+                    <StyledParagraph>04/22 - 01/24, Los Angeles CA</StyledParagraph>
                 </StyledTitleSubTitleDiv>
             </TopImageWrapper>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, qui voluptatem, quia dolor ullam eligendi sapiente, esse fugiat aliquam perferendis consectetur obcaecati magni. Ab suscipit, porro similique eos sunt expedita.
-            </p>
-            <div>
-                <h4>
-                    Selected Projects
-                </h4>
-                <ul>
-                    <Styledli>
-                        <Styleda href=''>Link 1</Styleda>
-                    </Styledli>
-                    <Styledli>
-                        <Styleda href=''>Link 1</Styleda>
-                    </Styledli>
-                    <Styledli>
-                        <Styleda href=''>Link 1</Styleda>
-                    </Styledli>
-                </ul>
-            </div>
+    I joined Polygon Labs to build out our games product and footprint. Starting from scratch, I built out <a href="URL_to_reference_documentation" target="_blank">reference documentation</a>, tested out backend providers, 
+    and shipped two games focused protocols (
+    <a href="URL_to_CDK" target="_blank">CDK</a> & <a href="URL_to_IXM_zkEVM" target="_blank">IMX zkEVM</a>).
+</p>
+
+        
 
         </div>
     )

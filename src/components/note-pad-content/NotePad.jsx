@@ -8,7 +8,7 @@ import Bain from '../work-items/Bain';
 import NASA from '../work-items/NASA';
 import Education from '../work-items/Education';
 import Skills from '../skills/Skills';
-import Writing from '../writing/Writing';
+import Misc from '../misc/Misc';
 
 function Notepad({ closeNotepad, selectedItem, isMobile }) {
     return (
@@ -75,8 +75,8 @@ function ContentFactory({ selectedItem }) {
             return <Education />
         case 'Skills':
             return <Skills />
-        case 'Writing':
-            return <Writing />
+        case 'Misc':
+            return <Misc />
         default:
             return (
                 <div>

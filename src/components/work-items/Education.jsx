@@ -6,9 +6,9 @@ const TopImageWrapper = styled.div`
    align-items: center;
    flex-direction: column;
    justify-content: center;
-   margin: 20px 0px;
-   gap: 20px;
-   margin-bottom: 20px;
+   margin: 0px 0px;
+   gap: 10px;
+   margin-bottom: 10px;
 `
 const StyledImage = styled.img`
   max-width: 150px;
@@ -18,7 +18,7 @@ const StyledTitleSubTitleDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px !important;
+  gap: 0px !important;
 `
 const StyledParagraph = styled.p`
  
@@ -45,29 +45,15 @@ const Education = () => {
             <TopImageWrapper >
                 <StyledImage className='' src='./Education_logo.png' />
                 <StyledTitleSubTitleDiv>
-                    <StyledParagraph >Education</StyledParagraph>
-                    <StyledParagraph>John Hopkins University</StyledParagraph>
+                <StyledParagraph>Johns Hopkins University, Baltimore MD</StyledParagraph>
+                    <StyledParagraph >B.A.in Economics</StyledParagraph>
+                    <StyledParagraph >GPA: 3.78</StyledParagraph>
                 </StyledTitleSubTitleDiv>
             </TopImageWrapper>
-            <p style={{marginTop:"30px"}}>
-                BA, Economics
+            <p>
+                Studied economics and enough computer science to interest me in technology but dissuade me from being a developer (personal websites notwithstanding). In my free time I did college radio and ran a brewery out of my kitchen.
             </p>
-            <div style={{marginTop:"30px"}}>
-                <h4>
-                    Coursework includes
-                </h4>
-                <ul>
-                    <Styledli>
-                        <Styleda href=''>Link 1</Styleda>
-                    </Styledli>
-                    <Styledli>
-                        <Styleda href=''>Link 1</Styleda>
-                    </Styledli>
-                    <Styledli>
-                        <Styleda href=''>Link 1</Styleda>
-                    </Styledli>
-                </ul>
-            </div>
+            
 
         </div>
     )
