@@ -55,7 +55,7 @@ function Explorer({ closeExplorer, isMobile, openNotepad }) {
                     </StyledItem>
                     <StyledItem onClick={() => openNotepad("Riot")}>
                         {/* You can change this ny replacing the file Riot.png in public folder with any logo image of same size */}
-                        <img src="./Riot1.png" style={{ maxWidth: "50px" }} alt="" />
+                        <img src="./riot.jpg" style={{ maxWidth: "50px" }} alt="" />
                         <StyledSpan>Riot Games.txt</StyledSpan>
                     </StyledItem>
                     <StyledItem onClick={() => openNotepad("Bain")}>
@@ -65,7 +65,7 @@ function Explorer({ closeExplorer, isMobile, openNotepad }) {
                     </StyledItem>
                     <StyledItem onClick={() => openNotepad("NASA")}>
                         {/* You can change this ny replacing the file NASA.png in public folder with any logo image of same size */}
-                        <img src="./NASA_icon.png" style={{ maxWidth: "50px" }} alt="" />
+                        <img src="./NASA.jpeg" style={{ maxWidth: "50px" }} alt="" />
                         <StyledSpan>NASA.txt</StyledSpan>
                     </StyledItem>
                     <StyledItem onClick={() => openNotepad("Education")}>

@@ -56,7 +56,7 @@ const Riot = () => {
     return (
         <div>
             <TopImageWrapper >
-                <StyledImage className='' src='./Riot2.png' />
+                <StyledImage className='' src='./riot.jpg' />
                 <StyledTitleSubTitleDiv>
                     <StyledParagraph >Strategy & Product - Riot Games</StyledParagraph>
                     <StyledParagraph>11/2020 - 04/2022, Los Angeles CA</StyledParagraph>

@@ -43,7 +43,7 @@ const NASA = () => {
     return (
         <div>
             <TopImageWrapper >
-                <StyledImage className='' src='./NASA_logo.png' />
+                <StyledImage className='' src='./NASA.jpeg' />
                 <StyledTitleSubTitleDiv>
                     <StyledParagraph >SWE intern - NASA</StyledParagraph>
                     <StyledParagraph>09/17 - 01/18, Houston (Johnson Space Center)</StyledParagraph>
