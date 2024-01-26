@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Modal, Frame } from '@react95/core'
 import PropTypes from "prop-types"
-import { WindowsExplorer } from '@react95/icons';
+import { Folder, WindowsExplorer } from '@react95/icons';
 
 const StyledItem = styled.div`
 	display: flex;
@@ -28,8 +28,8 @@ const FilesWrapper = styled.div`
 function Explorer({ closeExplorer, isMobile, openNotepad }) {
     return (
         <Modal
-            icon={<WindowsExplorer />}
-            title="Explorer - Work"
+            icon={<Folder />}
+            title="Work"
             closeModal={closeExplorer}
             style={{
                 left: isMobile ? '2%' : '15%',

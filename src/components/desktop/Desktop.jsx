@@ -9,7 +9,7 @@ function Desktop() {
     const [selectedItem, setSelectedItem] = useState("About");
     const [isMobile, setIsMobile] = useState(false)
     const [notepadOpened, toggleNotepad] = useState(false);
-
+      
 
     const closeExplorer = () => {
         toggleExplorer(false);

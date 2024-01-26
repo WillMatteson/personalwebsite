@@ -8,17 +8,20 @@ const RadarChart = () => {
             type: 'radar',
         },
         title: {
-            text: 'Basic Radar Chart',
+            text: 'Skill tree',
         },
         xaxis: {
-            categories: ['January', 'February', 'March', 'April', 'May', 'June'],
+            categories: ['Game monetization', 'Game services', 'Docker', 'EVM'],
         },
     });
 
     const [chartSeries, setChartSeries] = useState([
         {
             name: 'Series 1',
-            data: [80, 50, 30, 40, 100, 20],
+            data: [90, 70, 60, 99],
+            yaxis: {
+                max: 100
+            }
         },
     ]);
 

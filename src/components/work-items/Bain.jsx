@@ -23,6 +23,7 @@ const StyledTitleSubTitleDiv = styled.div`
 const StyledParagraph = styled.p`
  
   padding: 0px !important;
+  font-weight: bold;
   margin: 0px 0px !important;
 `
 const Styledli = styled.li`
@@ -34,7 +35,7 @@ const Styleda = styled.a`
   margin: 0px 0px !important;
   color: black !important;
   text-decoration: none;
-  font-weight: 600 !important;
+  //font-weight: 600 !important;
   font-size: 13px;
   cursor: pointer;
 `
@@ -45,17 +46,17 @@ const Bain = () => {
             <TopImageWrapper >
                 <StyledImage className='' src='./Bain_logo.png' />
                 <StyledTitleSubTitleDiv>
-                    <StyledParagraph >Role - Company (Item 3)</StyledParagraph>
-                    <StyledParagraph>Date - Date</StyledParagraph>
+                    <StyledParagraph >Consultant - Bain & Company</StyledParagraph>
+                    <StyledParagraph>09/18 - 11/20, Chicago</StyledParagraph>
                 </StyledTitleSubTitleDiv>
             </TopImageWrapper>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, qui voluptatem, quia dolor ullam eligendi sapiente, esse fugiat aliquam perferendis consectetur obcaecati magni. Ab suscipit, porro similique eos sunt expedita.
+                I started off my career at Bain, learning a little about a lot. 
             </p>
             <div>
-                <h4>
-                    Selected Projects
-                </h4>
+            <p style={{ fontSize: '13px' }}>
+  Selected Projects:
+</p>
                 <ul>
                     <Styledli>
                         <Styleda href=''>Link 1</Styleda>

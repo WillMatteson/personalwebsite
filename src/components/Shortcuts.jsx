@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 // import { startWebamp } from '../utils/startWebamp';
-import { WindowsExplorer } from '@react95/icons';
+import { Folder, Gcdef100, InfoBubble, Notepad, Notepad1, Notepad2, WindowsExplorer, Wordpad } from '@react95/icons';
 import PropTypes from "prop-types"
 
 
@@ -29,23 +29,23 @@ function Shortcuts({ openNotepad, openExlorer, isMobile }) {
             <div>
 
                 <StyledShorcut onClick={() => openNotepad("About")} >
-                    <WindowsExplorer />
+                    <Notepad2 />
                     <div>About me</div>
                 </StyledShorcut>
                 <StyledShorcut onClick={() => openExlorer()} >
-                    <WindowsExplorer />
+                    <Folder />
                     <div>Work</div>
                 </StyledShorcut>
             </div>
             <div>
 
                 <StyledShorcut onClick={() => openNotepad("Skills")} >
-                    <WindowsExplorer />
+                    <Gcdef100/>
                     <div>Skills</div>
                 </StyledShorcut>
                 <StyledShorcut onClick={() => openNotepad("Writing")} >
-                    <WindowsExplorer />
-                    <div>Writing</div>
+                    <Folder/>
+                    <div>Misc.</div>
                 </StyledShorcut>
             </div>
         </StyledParent>

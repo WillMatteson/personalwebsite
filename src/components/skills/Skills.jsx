@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import RadarChart from '../radarchart'
+import RadarChart from '../RadarChart'
 
 const Styledli = styled.li`
   padding: 0px !important;
@@ -17,7 +17,7 @@ const Skills = () => {
             <RadarChart />
             <div>
                 <h4>
-                    Intrests
+                    Interests
                 </h4>
                 <ul>
                     <Styledli>
