@@ -43,7 +43,7 @@ const Education = () => {
     return (
         <div>
             <TopImageWrapper >
-                <StyledImage className='' src='./Education_logo.png' />
+                <StyledImage className='' src='./jhulogo.png' />
                 <StyledTitleSubTitleDiv>
                 <StyledParagraph>Johns Hopkins University, Baltimore MD</StyledParagraph>
                     <StyledParagraph >B.A.in Economics</StyledParagraph>

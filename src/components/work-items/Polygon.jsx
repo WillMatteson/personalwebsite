@@ -43,7 +43,7 @@ const Polygon = () => {
     return (
         <div>
             <TopImageWrapper >
-                <StyledImage className='' src='./polygon.svg' />
+                <StyledImage className='' src='./polygonlogo.png' />
                 <StyledTitleSubTitleDiv>
                     <StyledParagraph >Senior Director - Polygon Labs </StyledParagraph>
                     <StyledParagraph>04/22 - 01/24, Los Angeles CA</StyledParagraph>

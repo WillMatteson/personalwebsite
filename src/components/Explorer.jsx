@@ -50,7 +50,7 @@ function Explorer({ closeExplorer, isMobile, openNotepad }) {
                 <FilesWrapper>
                     <StyledItem onClick={() => openNotepad("Polygon")}>
                         {/* You can change this ny replacing the file Item1.png in public folder with any logo image of same size */}
-                        <img src="./polygon.svg" style={{ maxWidth: "50px" }} alt="" />
+                        <img src="./polygonlogo.png" style={{ maxWidth: "50px" }} alt="" />
                         <StyledSpan>Polygon.txt</StyledSpan>
                     </StyledItem>
                     <StyledItem onClick={() => openNotepad("Riot")}>
@@ -60,17 +60,17 @@ function Explorer({ closeExplorer, isMobile, openNotepad }) {
                     </StyledItem>
                     <StyledItem onClick={() => openNotepad("Bain")}>
                         {/* You can change this ny replacing the file Bain.png in public folder with any logo image of same size */}
-                        <img src="./Bain_icon.png" style={{ maxWidth: "50px" }} alt="" />
+                        <img src="./bainlogo.png" style={{ maxWidth: "50px" }} alt="" />
                         <StyledSpan>Bain.txt</StyledSpan>
                     </StyledItem>
                     <StyledItem onClick={() => openNotepad("NASA")}>
                         {/* You can change this ny replacing the file NASA.png in public folder with any logo image of same size */}
-                        <img src="./NASA.jpeg" style={{ maxWidth: "50px" }} alt="" />
+                        <img src="./nasalogo.png" style={{ maxWidth: "50px" }} alt="" />
                         <StyledSpan>NASA.txt</StyledSpan>
                     </StyledItem>
                     <StyledItem onClick={() => openNotepad("Education")}>
                         {/* You can change this ny replacing the file NASA.png in public folder with any logo image of same size */}
-                        <img src="./Education_icon.png" style={{ maxWidth: "50px" }} alt="" />
+                        <img src="./jhulogo.png" style={{ maxWidth: "50px" }} alt="" />
                         <StyledSpan>Education.txt</StyledSpan>
                     </StyledItem>
                 </FilesWrapper>
