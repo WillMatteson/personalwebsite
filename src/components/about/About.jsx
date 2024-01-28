@@ -29,7 +29,7 @@ const About = () => {
             </StyledPara>
 
             <StyledPara>
-                I'm currently on sabattical skiing Japan through March, but am on the hunt for product roles at gaming, consumer, and crypto companies. I like solving platform problems and delivering worthwhile products.
+                I'm currently on sabbatical skiing Japan through March, but am on the hunt for product roles at gaming, consumer, and crypto companies. I like solving platform problems and delivering worthwhile products.
             </StyledPara>
             <StyledUl >
                 <Styledli>
