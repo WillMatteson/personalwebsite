@@ -22,8 +22,8 @@ const RadarChart = () => {
             categories: ['Product', 'Coding', 'Growth', 'Mandarin', 'Game Economics', 'Game design', 'Blockchains', 'Docker', 'Game Services' ],
             labels: {
                 style: {
-                    fontWeight: 'bold',
-                    fontSize: '8px',
+                    //fontWeight: 'bold',
+                    //fontSize: '8px',
                     fontFamily: 'MS Windows 95', // Set font for x-axis labels
                 },
             },
@@ -36,7 +36,7 @@ const RadarChart = () => {
             min:0,
             labels: {
                 style: {
-                    fontSize: '8px',
+                    //fontSize: '8px',
                     fontFamily: 'MS Windows 95', // Set font for x-axis labels
                 },
             },

@@ -43,7 +43,7 @@ const Bain = () => {
     return (
         <div>
             <TopImageWrapper >
-                <StyledImage className='' src='./Bain_logo.png' />
+                <StyledImage className='' src='./bainlogo.png' />
                 <StyledTitleSubTitleDiv>
                     <StyledParagraph >Consultant - Bain & Company</StyledParagraph>
                     <StyledParagraph>09/18 - 11/20, Chicago IL</StyledParagraph>
