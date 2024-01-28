@@ -10,7 +10,7 @@ const StyledItem = styled.div`
 	flex-direction: column;
 	text-align: center;
     cursor: pointer;
-	width: 25%;
+	width: 33.33%;
     gap: 3px;
 	padding: 10px 0;
 `;
@@ -21,7 +21,7 @@ const StyledSpan = styled.span`
 
 const FilesWrapper = styled.div`
 	display: flex;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	flex-wrap: wrap;
 `;
 
@@ -55,7 +55,7 @@ function Explorer({ closeExplorer, isMobile, openNotepad }) {
                     </StyledItem>
                     <StyledItem onClick={() => openNotepad("Riot")}>
                         {/* You can change this ny replacing the file Riot.png in public folder with any logo image of same size */}
-                        <img src="./riot.jpg" style={{ maxWidth: "50px" }} alt="" />
+                        <img src="./riotlogo.png" style={{ maxWidth: "50px" }} alt="" />
                         <StyledSpan>Riot Games.txt</StyledSpan>
                     </StyledItem>
                     <StyledItem onClick={() => openNotepad("Bain")}>

@@ -4,24 +4,30 @@ import ReactApexChart from 'react-apexcharts';
 const RadarChart = () => {
     const [chartOptions, setChartOptions] = useState({
         chart: {
-            height: 800,
+            height: 500,
             type: 'radar',
+            toolbar: {
+                show:false
+            },
+
         },
         title: {
-            margin: 0, // Smaller value reduces space below the title
-            offsetY: 0,
+            offsetY: 20,
             text: 'Skill tree',
             style: {
                 fontFamily: 'MS Windows 95', // Set font for title
             },
         },
         xaxis: {
-            categories: ['Product', 'Coding', 'Growth', 'Mandarin', 'Blockchains', 'Game design', 'Game Economics', 'Docker', 'Game services' ],
+            categories: ['Product', 'Coding', 'Growth', 'Mandarin', 'Game Economics', 'Game design', 'Blockchains', 'Docker', 'Game Services' ],
             labels: {
                 style: {
+                    fontWeight: 'bold',
+                    fontSize: '8px',
                     fontFamily: 'MS Windows 95', // Set font for x-axis labels
                 },
             },
+            
         },
         yaxis: {
             tickAmount:4,
@@ -30,6 +36,7 @@ const RadarChart = () => {
             min:0,
             labels: {
                 style: {
+                    fontSize: '8px',
                     fontFamily: 'MS Windows 95', // Set font for x-axis labels
                 },
             },
@@ -37,9 +44,10 @@ const RadarChart = () => {
         grid: {
             padding: {
                 bottom: -20, // Reduce bottom padding
-                top:-20
+                top:-30,
                 // Other padding options...
             },
+            offsetX: -100,
             // Other grid options...
         },
 
@@ -56,7 +64,7 @@ const RadarChart = () => {
 
     return (
         <div>
-            <div id="chart">
+            <div id="chart" >
                 <ReactApexChart options={chartOptions} series={chartSeries} type="radar" height={350} />
             </div>
             <div id="html-dist"></div>

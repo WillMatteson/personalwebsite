@@ -25,11 +25,11 @@ const About = () => {
                 Will Matteson
             </h2>
             <StyledPara>
-                Hi there! I'm a gaming and crypto product manager and technologist. Most recently I led games product at Polygon Labs. Before that I did *REDACTED* at Riot Games.
+                Hi there! I'm a product manager in games & crypto. Most recently I led games product at Polygon Labs. Before that I did <b>*REDACTED*</b> at Riot Games.
             </StyledPara>
 
             <StyledPara>
-                I'm currently on sabattical skiing and tinkering in Japan until April, but am interested in compelling product & infra roles at gaming, consumer, and crypto companies.
+                I'm currently on sabattical skiing Japan through March, but am on the hunt for product roles at gaming, consumer, and crypto companies. I like solving platform problems and delivering worthwhile products.
             </StyledPara>
             <StyledUl >
                 <Styledli>

@@ -50,24 +50,9 @@ const Bain = () => {
                 </StyledTitleSubTitleDiv>
             </TopImageWrapper>
             <p>
-                I started off my career at Bain, learning a little about a lot. 
+                I started off my career at Bain, learning a little about a lot. Did a mixture of classic strategy work for Fortune 100 companies and due diligence for private equity transactions. Which included becoming an expert on things like Jet Engines, Golf Carts, Nursing Homes. Perfect for a curious 24 year old.    
             </p>
-            <div>
-            <p style={{ fontSize: '13px' }}>
-  Selected Projects:
-</p>
-                <ul>
-                    <Styledli>
-                        <Styleda href=''>Link 1</Styleda>
-                    </Styledli>
-                    <Styledli>
-                        <Styleda href=''>Link 1</Styleda>
-                    </Styledli>
-                    <Styledli>
-                        <Styleda href=''>Link 1</Styleda>
-                    </Styledli>
-                </ul>
-            </div>
+            
 
         </div>
     )
