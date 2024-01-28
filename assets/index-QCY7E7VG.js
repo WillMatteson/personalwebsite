@@ -817,7 +817,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   font-weight: 600 !important;
   font-size: 13px;
   cursor: pointer;
-`;const xI=()=>ue.jsxs("div",{children:[ue.jsxs(pI,{children:[ue.jsx(mI,{className:"",src:"./Bain_logo.png"}),ue.jsxs(gI,{children:[ue.jsx(a0,{children:"Consultant - Bain & Company"}),ue.jsx(a0,{children:"09/18 - 11/20, Chicago IL"})]})]}),ue.jsx("p",{children:"I started off my career at Bain, learning a little about a lot. Did a mixture of classic strategy work for Fortune 100 companies and due diligence for private equity transactions. Which included becoming an expert on things like Jet Engines, Golf Carts, Nursing Homes. Perfect for a curious 24 year old."})]}),vI=Ke.div`
+`;const xI=()=>ue.jsxs("div",{children:[ue.jsxs(pI,{children:[ue.jsx(mI,{className:"",src:"./bainlogo.png"}),ue.jsxs(gI,{children:[ue.jsx(a0,{children:"Consultant - Bain & Company"}),ue.jsx(a0,{children:"09/18 - 11/20, Chicago IL"})]})]}),ue.jsx("p",{children:"I started off my career at Bain, learning a little about a lot. Did a mixture of classic strategy work for Fortune 100 companies and due diligence for private equity transactions. Which included becoming an expert on things like Jet Engines, Golf Carts, Nursing Homes. Perfect for a curious 24 year old."})]}),vI=Ke.div`
    width: full;
    display: flex;
    align-items: center;
@@ -849,7 +849,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   font-weight: 600 !important;
   font-size: 13px;
   cursor: pointer;
-`;const AI=()=>ue.jsxs("div",{children:[ue.jsxs(vI,{children:[ue.jsx(yI,{className:"",src:"./NASA.jpeg"}),ue.jsxs(bI,{children:[ue.jsx(o0,{children:"SWE intern - NASA"}),ue.jsx(o0,{children:"09/17 - 01/18, Houston (Johnson Space Center)"})]})]}),ue.jsxs("p",{children:["After my junior year of college, I took a leave of absence for an internship at NASA.",ue.jsxs("ul",{children:[ue.jsxs("li",{children:[ue.jsx("strong",{children:"Department:"})," Mission Planning Group"]}),ue.jsxs("li",{children:[ue.jsx("strong",{children:"Responsibilities:"})," Writing code for spaceship launch protocols."]}),ue.jsxs("li",{children:[ue.jsx("strong",{children:"Project:"})," Boeing Starliner"]}),ue.jsxs("li",{children:[ue.jsx("strong",{children:"Note:"})," I got to meet a bunch of astronauts."]})]})]})]}),wI=Ke.div`
+`;const AI=()=>ue.jsxs("div",{children:[ue.jsxs(vI,{children:[ue.jsx(yI,{className:"",src:"./nasalogo.png"}),ue.jsxs(bI,{children:[ue.jsx(o0,{children:"SWE intern - NASA"}),ue.jsx(o0,{children:"09/17 - 01/18, Houston (Johnson Space Center)"})]})]}),ue.jsxs("p",{children:["After my junior year of college, I took a leave of absence for an internship at NASA.",ue.jsxs("ul",{children:[ue.jsxs("li",{children:[ue.jsx("strong",{children:"Department:"})," Mission Planning Group"]}),ue.jsxs("li",{children:[ue.jsx("strong",{children:"Responsibilities:"})," Writing code for spaceship launch protocols."]}),ue.jsxs("li",{children:[ue.jsx("strong",{children:"Project:"})," Boeing Starliner"]}),ue.jsxs("li",{children:[ue.jsx("strong",{children:"Note:"})," I got to meet a bunch of astronauts."]})]})]})]}),wI=Ke.div`
    width: full;
    display: flex;
    align-items: center;
