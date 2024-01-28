@@ -785,7 +785,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   border: none;
   padding: 0px !important;
   margin: 0px 0px;
-`;const fI=()=>ue.jsxs("div",{children:[ue.jsxs(hI,{children:[ue.jsx(cI,{className:"",src:"./riotlogo.png"}),ue.jsxs(uI,{children:[ue.jsx(i0,{children:"Strategy & Product - Riot Games"}),ue.jsx(i0,{children:"11/2020 - 04/2022, Los Angeles CA"})]})]}),ue.jsx("p",{children:"I got to work on awesome products across games and entertainment businesses. Launched Arcane, the #2 TV show for all of Netflix in 2021 (couldn't beat out squid games). Distributed content to millions of players through Twitch account linking. Led a team of ~10 for another product that ultimately died."}),ue.jsx("div",{children:ue.jsx(dI,{src:"./arcane.mp4",autoplay:!0,muted:!0,loop:!0,controls:!0})})]}),pI=Ke.div`
+`;const fI=()=>ue.jsxs("div",{children:[ue.jsxs(hI,{children:[ue.jsx(cI,{className:"",src:"./riotlogo.png"}),ue.jsxs(uI,{children:[ue.jsx(i0,{children:"Strategy & Product - Riot Games"}),ue.jsx(i0,{children:"11/2020 - 04/2022, Los Angeles CA"})]})]}),ue.jsx("p",{children:"I got to work on awesome products across games and entertainment businesses. Launched Arcane, the #2 TV show for all of Netflix in 2021 (couldn't beat out squid game). Distributed content to millions of players through Twitch account linking. Led a team of ~10 for another product that ultimately died."}),ue.jsx("div",{children:ue.jsx(dI,{src:"./arcane.mp4",autoplay:!0,muted:!0,loop:!0,controls:!0})})]}),pI=Ke.div`
    width: full;
    display: flex;
    align-items: center;
