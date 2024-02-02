@@ -1695,9 +1695,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 }
 `;const s0=WI.trim();function XI(e,t){return UI(e)||$I(e,t)||VI(e,t)||GI()}function GI(){throw new TypeError(`Invalid attempt to destructure non-iterable instance.
 In order to be iterable, non-array objects must have a [Symbol.iterator]() method.`)}function VI(e,t){if(e){if(typeof e=="string")return l0(e,t);var i=Object.prototype.toString.call(e).slice(8,-1);if(i==="Object"&&e.constructor&&(i=e.constructor.name),i==="Map"||i==="Set")return Array.from(e);if(i==="Arguments"||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(i))return l0(e,t)}}function l0(e,t){(t==null||t>e.length)&&(t=e.length);for(var i=0,o=new Array(t);i<t;i++)o[i]=e[i];return o}function $I(e,t){var i=e==null?null:typeof Symbol<"u"&&e[Symbol.iterator]||e["@@iterator"];if(i!=null){var o,u,g,S,O=[],L=!0,W=!1;try{if(g=(i=i.call(e)).next,t===0){if(Object(i)!==i)return;L=!1}else for(;!(L=(o=g.call(i)).done)&&(O.push(o.value),O.length!==t);L=!0);}catch(U){W=!0,u=U}finally{try{if(!L&&i.return!=null&&(S=i.return(),Object(S)!==S))return}finally{if(W)throw u}}return O}}function UI(e){if(Array.isArray(e))return e}var h0,Wf=function(t){var i=t.children,o=t.agentName,u=o===void 0?$y.CLIPPY:o,g=ze.useState(),S=XI(g,2),O=S[0],L=S[1];function W(U,re){U.hide(!1,function(){re&&re()})}return ze.useEffect(function(){var U=document,re=U.head,te=document.createElement("style");return te.type="text/css",te.styleSheet?te.styleSheet.cssText=s0:te.appendChild(document.createTextNode(s0)),re.appendChild(te),function(){return W(h0)}},[]),ze.useEffect(function(){function U(){var re;Qy.load(u,function(te){te.show(),L(te),h0=te},function(){L()},((re=window)===null||re===void 0?void 0:re.CLIPPY_CDN)||"https://cdn.jsdelivr.net/gh/pi0/clippyjs@master/assets/agents/")}O?W(O,function(){return U()}):U()},[u]),$.createElement(zI.Provider,{value:{clippy:O}},i)};Wf.propTypes={agentName:jr.string,children:jr.oneOfType([jr.arrayOf(jr.node),jr.node])};Wf.defaultProps={agentName:$y.CLIPPY,children:void 0};const QI=nc`
- 
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;800&display=swap');
+
 body {
     font-size: 15px;
-    body: ms_sans_serif;
-  }
+    font-family: 'Martel', serif;  }
 `;function qI(){return ce.jsx(Wf,{children:ce.jsx(ZD.Provider,{children:ce.jsxs("div",{className:"custom-bg",children:[" ",ce.jsxs(qD,{children:[ce.jsx(XT,{}),ce.jsx(QI,{}),ce.jsx(_I,{}),ce.jsx(KD,{})]})]})})})}gu.createRoot(document.getElementById("root")).render(ce.jsx(qI,{}));
