@@ -8,7 +8,7 @@ function Taskbar() {
             list={
                 <List >
                     <List.Item className="" icon={<Brush />}>
-                        <a href={""} className='task-a' rel="noreferrer" target="_blank">Built with React95</a>
+                        <a href={"https://github.com/React95/React95"} className='task-a' rel="noreferrer" target="_blank">Built with React95</a>
                     </List.Item>
                     <List.Divider />
                     <List.Item className="" icon={<Mail />}>

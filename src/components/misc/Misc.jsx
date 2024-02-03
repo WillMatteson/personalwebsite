@@ -14,8 +14,8 @@ const Misc = () => {
         <div>
             <ul>
                 <li><a href="https://legacy.donotresearch.net/posts/special-research-report-getting-rich-quick">Special Research Report: Getting Rich Quick</a></li>
-                <li><a href="https://twitter.com/0xPolygonLabs/status/1636751868213821441">Blueprint, a Web3 games guide (that I wrote)</a></li>
-                <li><a href="your-link-3">Ski videos (forthcoming)</a></li>
+                <li><a href="https://drive.google.com/file/d/1uBiVum_NOKAJf2nIxonY46L6iYe4SjsA/view?usp=sharing">Blueprint, a Web3 games guide (that I wrote)</a></li>
+                <li>Ski videos (coming soon)</li>
             </ul>
         </div>
     )

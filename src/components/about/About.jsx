@@ -25,16 +25,16 @@ const About = () => {
                 Will Matteson
             </h2>
             <StyledPara>
-                Hi there! I'm a product manager in games & crypto. Most recently I led games product at Polygon Labs. Before that I did <b>*REDACTED*</b> at Riot Games.
+                Hi there! I'm a product manager in games & crypto. Most recently I led games product at Polygon Labs, building blockchain products for game developers. Before that I did <b>*REDACTED*</b> at Riot Games.
             </StyledPara>
 
             <StyledPara>
-                I'm currently on sabbatical skiing Japan through March, but am on the hunt for product roles at gaming, consumer, and crypto companies. I like solving platform problems and delivering worthwhile products.
+                I'm currently on sabbatical skiing Japan through March, but am on the hunt for product roles at innovative gaming, consumer, and crypto companies. I like building things that solve problems for platforms and players.
             </StyledPara>
             <StyledUl >
                 <Styledli>
                     <Styledh5>
-                    <a href="willtmatteson@gmail.com" target="_blank" rel="noopener noreferrer">email</a>
+                    <a href="mailto:willtmatteson@gmail.com" target="_blank" rel="noopener noreferrer">email: willtmatteson@gmail.com</a>
                     </Styledh5>
                 </Styledli>
                 <Styledli>
@@ -43,7 +43,12 @@ const About = () => {
                     </Styledh5>
                 </Styledli>
                 <Styledli>
-                    <Styledh5>resume on request</Styledh5>
+                    <Styledh5>
+                    <a href="https://twitter.com/0xlegofan" target="_blank" rel="noopener noreferrer">twitter</a>
+                    </Styledh5>
+                </Styledli>
+                <Styledli>
+                    <Styledh5>resume on request (email me :))</Styledh5>
                 </Styledli>
             </StyledUl>
         </div>

@@ -45,14 +45,13 @@ const Polygon = () => {
             <TopImageWrapper >
                 <StyledImage className='' src='./polygonlogo.png' />
                 <StyledTitleSubTitleDiv>
-                    <StyledParagraph >Senior Director - Polygon Labs </StyledParagraph>
+                    <StyledParagraph >Snr Dir Games Product - Polygon Labs </StyledParagraph>
                     <StyledParagraph>04/22 - 01/24, Los Angeles CA</StyledParagraph>
                 </StyledTitleSubTitleDiv>
             </TopImageWrapper>
             <p>
-    I joined Polygon Labs to build out our games product and footprint. Starting from scratch, I built out <a href="URL_to_reference_documentation" target="_blank">reference documentation</a>, tested out backend providers, 
-    and shipped two games focused protocols (
-    <a href="URL_to_CDK" target="_blank">CDK</a> & <a href="URL_to_IXM_zkEVM" target="_blank">IMX zkEVM</a>).
+    I joined Polygon Labs to build out our games business and product offering. Starting from scratch, I built out a <a href="https://drive.google.com/file/d/1uBiVum_NOKAJf2nIxonY46L6iYe4SjsA/view?usp=sharing" target="_blank">games toolkit</a>, prototyped back end tooling & architecture, 
+    and shipped two games focused protocols &nbsp;<a href="https://polygon.technology/polygon-cdk" target="_blank">CDK</a> & <a href="https://www.immutable.com/products/immutable-zkevm" target="_blank">IMX zkEVM</a> that are used by 150+ game studios.).
 </p>
 
         

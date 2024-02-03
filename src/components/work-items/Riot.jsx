@@ -58,12 +58,12 @@ const Riot = () => {
             <TopImageWrapper >
                 <StyledImage className='' src='./riotlogo.png' />
                 <StyledTitleSubTitleDiv>
-                    <StyledParagraph >Strategy & Product - Riot Games</StyledParagraph>
-                    <StyledParagraph>11/2020 - 04/2022, Los Angeles CA</StyledParagraph>
+                    <StyledParagraph >Product & Corp Strat - Riot Games</StyledParagraph>
+                    <StyledParagraph>11/2020 - 04/2022, Los Angeles, CA</StyledParagraph>
                 </StyledTitleSubTitleDiv>
             </TopImageWrapper>
             <p>
-                I got to work on awesome products across games and entertainment businesses. Launched Arcane, the #2 TV show for all of Netflix in 2021 (couldn't beat out squid game). Distributed content to millions of players through Twitch account linking. Led a team of ~10 for another product that ultimately died.
+                I got to work on awesome products across the games and entertainment portfolios. Launched Arcane, the #2 TV show for all of Netflix in 2021 (couldn't beat out squid game). Distributed content to millions of players through Twitch account linking. Led a skunk works team of ~10 for another product that ultimately died (RIP).
             </p>
             <div>
                 

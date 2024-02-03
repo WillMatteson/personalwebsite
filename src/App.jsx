@@ -9,9 +9,11 @@ import { AGENTS } from '@react95/clippy';
 
 
 const BodyFontSizeOverride = createGlobalStyle`
-  body {
+
+body {
     font-size: 15px;
-  }
+    }
+    
 `;
 
 function App() {

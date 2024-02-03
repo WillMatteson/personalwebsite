@@ -1,23 +1,10 @@
-:root {
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
-  /* line-height: 1.5; */
-  /* font-weight: 400; */
-  /* color-scheme: light dark; */
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-body {
-  font-size: 15px;
-}
-/* Background for Desktop You can modify it any time */
 .custom-bg {
   background-image: url("/Clouds.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
   /* height: 100vh; */
   height: calc(100dvh - 28px);
 }
