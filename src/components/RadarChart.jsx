@@ -19,7 +19,7 @@ const RadarChart = () => {
             },
         },
         xaxis: {
-            categories: ['Product', 'Coding', 'Growth', 'Game Economics', 'Game design', 'Chinese', 'Blockchains', 'Docker', 'Game Services' ],
+            categories: ['Product', 'Coding', 'Growth', 'Game Economics', 'Game Design', 'Chinese', 'Blockchains', 'Docker', 'Game Services' ],
             labels: {
                 style: {
                     //fontWeight: 'bold',

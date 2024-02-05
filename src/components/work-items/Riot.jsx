@@ -63,7 +63,7 @@ const Riot = () => {
                 </StyledTitleSubTitleDiv>
             </TopImageWrapper>
             <p>
-                I got to work on awesome products across the games and entertainment portfolios. Launched Arcane, the #2 TV show for all of Netflix in 2021 (couldn't beat out squid game). Distributed content to millions of players through Twitch account linking. Led a skunk works team of ~10 for another product that ultimately died (RIP).
+                I got to work on awesome products across the games and entertainment portfolios. Launched Arcane, the #2 TV show for all of Netflix in 2021 (we barely lost to squid game). Distributed content to millions of players through Twitch account linking. Led a skunk works team of ~10 for another product that ultimately died (RIP).
             </p>
             <div>
                 

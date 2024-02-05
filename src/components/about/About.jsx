@@ -48,7 +48,7 @@ const About = () => {
                     </Styledh5>
                 </Styledli>
                 <Styledli>
-                    <Styledh5>resume on request (email me :))</Styledh5>
+                    <Styledh5>resume:(still working on it, just email me :))</Styledh5>
                 </Styledli>
             </StyledUl>
         </div>
