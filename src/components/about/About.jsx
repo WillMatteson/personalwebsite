@@ -48,7 +48,9 @@ const About = () => {
                     </Styledh5>
                 </Styledli>
                 <Styledli>
-                    <Styledh5>resume:(still working on it, just email me :))</Styledh5>
+                    <Styledh5>
+                    <a href="https://drive.google.com/file/d/19ztHG3ZS_hGVWU6a0x0G6ipfpqD_OQiB/view" target="_blank" rel="noopener noreferrer">resume</a>
+                    </Styledh5>
                 </Styledli>
             </StyledUl>
         </div>
