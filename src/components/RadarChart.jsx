@@ -19,7 +19,7 @@ const RadarChart = () => {
             },
         },
         xaxis: {
-            categories: ['Product', 'Coding', 'Growth', 'Game Economics', 'Game Design', 'Chinese', 'Blockchains', 'Docker', 'Game Services' ],
+            categories: ['Product', 'Coding', 'Growth', 'Pricing & Economy Design', 'Chinese', 'Agents', 'Docker', 'Creator Tools' ],
             labels: {
                 style: {
                     //fontWeight: 'bold',
@@ -57,7 +57,7 @@ const RadarChart = () => {
     const [chartSeries, setChartSeries] = useState([
         {
             name: 'Series 1',
-            data: [99, 30, 70, 99, 80, 35, 90, 60, 90],
+            data: [99, 50, 70, 99, 35, 90, 60, 90],
         },
         // ... other series data
     ]);
