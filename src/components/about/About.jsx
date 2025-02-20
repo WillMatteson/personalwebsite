@@ -25,11 +25,11 @@ const About = () => {
                 Will Matteson
             </h2>
             <StyledPara>
-                Hi there! I'm a product manager in games & crypto. Most recently I led games product at Polygon Labs, building blockchain products for game developers. Before that I did <b>*REDACTED*</b> at Riot Games.
+                Hi there! I lead product at <a href="play.ai" target="_blank" rel="noopener noreferrer">play.ai</a>. Most recently I led games product at Polygon Labs, building blockchain products for game developers. Before that I did <b>*REDACTED*</b> at Riot Games.
             </StyledPara>
 
             <StyledPara>
-                I'm currently on sabbatical <a href="https://drive.google.com/file/d/1anmSIVqTyMAHKTb2_vlEBH4pH9tuZ2KN/view?usp=sharing" target="_blank" rel="noopener noreferrer">skiing</a> in Japan through March, but am on the hunt for product roles at innovative gaming, consumer, and crypto companies. I like building things that solve problems for platforms and players.
+                Currently building out voice based computing interfaces, spanning agents, text to speech, and some things I'm not allowed to talk about yet.
             </StyledPara>
             <StyledUl >
                 <Styledli>
@@ -47,11 +47,7 @@ const About = () => {
                     <a href="https://twitter.com/0xlegofan" target="_blank" rel="noopener noreferrer">twitter</a>
                     </Styledh5>
                 </Styledli>
-                <Styledli>
-                    <Styledh5>
-                    <a href="https://drive.google.com/file/d/19ztHG3ZS_hGVWU6a0x0G6ipfpqD_OQiB/view" target="_blank" rel="noopener noreferrer">resume</a>
-                    </Styledh5>
-                </Styledli>
+                
             </StyledUl>
         </div>
     )
