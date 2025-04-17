@@ -48,6 +48,11 @@ function Explorer({ closeExplorer, isMobile, openNotepad }) {
             >
                 {/* Work Items  */}
                 <FilesWrapper>
+                    <StyledItem onClick={() => openNotepad("Play")}>
+                        {/* Play Studios logo */}
+                        <img src="./playlogo.png" style={{ maxWidth: "50px" }} alt="" />
+                        <StyledSpan>Play.txt</StyledSpan>
+                    </StyledItem>
                     <StyledItem onClick={() => openNotepad("Polygon")}>
                         {/* You can change this ny replacing the file Item1.png in public folder with any logo image of same size */}
                         <img src="./polygonlogo.png" style={{ maxWidth: "50px" }} alt="" />

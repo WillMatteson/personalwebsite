@@ -7,6 +7,7 @@ import Riot from '../work-items/Riot';
 import Bain from '../work-items/Bain';
 import NASA from '../work-items/NASA';
 import Education from '../work-items/Education';
+import Play from '../work-items/Play';
 import Skills from '../skills/Skills';
 import Misc from '../misc/Misc';
 
@@ -63,6 +64,8 @@ function ContentFactory({ selectedItem }) {
     switch (selectedItem) {
         case 'About':
             return <About />
+        case 'Play':
+            return <Play />
         case 'Polygon':
             return <Polygon />
         case 'Riot':
