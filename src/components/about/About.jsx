@@ -29,7 +29,7 @@ const About = () => {
             </StyledPara>
 
             <StyledPara>
-                Currently building out voice based computing interfaces, spanning agents, text to speech, and some things I'm not allowed to talk about yet.
+                Currently building out voice based computing interfaces, spanning agents, text to speech, creator tools, and some things I'm not allowed to talk about yet.
             </StyledPara>
             <StyledUl >
                 <Styledli>

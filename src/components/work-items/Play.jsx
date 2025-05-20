@@ -45,15 +45,15 @@ const Play = () => {
             <TopImageWrapper >
                 <StyledImage className='' src='./playlogo.png' />
                 <StyledTitleSubTitleDiv>
-                    <StyledParagraph>Product - PlayAI</StyledParagraph>
-                    <StyledParagraph>09/2024 - Present, Remote</StyledParagraph>
+                    <StyledParagraph>Head of Product Product - PlayAI</StyledParagraph>
+                    <StyledParagraph>09/2024 - Present, San Francisco</StyledParagraph>
                 </StyledTitleSubTitleDiv>
             </TopImageWrapper>
             <p>
                 At PlayAI, we're making computers speak like Humans.
             </p>
             <p>
-                Voice AI foundational model R&D and evals. Accounts, commerce systems, platform stability.
+                Building foundational voice models for agents, text to speech, and creator tools. Also working on commerce systems, platform stability, growth tech.
             </p>
         </div>
     )
