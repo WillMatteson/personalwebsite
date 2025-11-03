@@ -21,7 +21,6 @@ const StyledTitleSubTitleDiv = styled.div`
   gap: 0px !important;
 `
 const StyledParagraph = styled.p`
- 
   padding: 0px !important;
   margin: 0px 0px !important;
 `
@@ -39,21 +38,19 @@ const Styleda = styled.a`
   cursor: pointer;
 `
 
-const Play = () => {
+const Salesforce = () => {
     return (
         <div>
-            <TopImageWrapper >
-                <StyledImage className='' src='./playlogo.png' />
+            <TopImageWrapper>
+                <StyledImage className='' src='./salesforcelogo.png' />
                 <StyledTitleSubTitleDiv>
-                    <StyledParagraph>Head of Product Product - PlayAI</StyledParagraph>
-                    <StyledParagraph>09/2024 - 07/2024</StyledParagraph>
+                    <StyledParagraph>Director of Product - Salesforce</StyledParagraph>
+                    <StyledParagraph>San Francisco</StyledParagraph>
                 </StyledTitleSubTitleDiv>
             </TopImageWrapper>
-            <p>
-                Making computers speak like humans (or even better). Built foundational voice models & herded GPUs. Acquired by Meta Superintelligence.
-            </p>
+            <p>Working on Agentforce voice</p>
         </div>
     )
 }
 
-export default Play
+export default Salesforce

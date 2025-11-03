@@ -48,15 +48,15 @@ function Explorer({ closeExplorer, isMobile, openNotepad }) {
             >
                 {/* Work Items  */}
                 <FilesWrapper>
+                    <StyledItem onClick={() => openNotepad("Salesforce")}>
+                        {/* You can change this ny replacing the file Item1.png in public folder with any logo image of same size */}
+                        <img src="./salesforcelogo.png" style={{ maxWidth: "50px" }} alt="" />
+                        <StyledSpan>Salesforce.txt</StyledSpan>
+                    </StyledItem>
                     <StyledItem onClick={() => openNotepad("Play")}>
                         {/* Play Studios logo */}
                         <img src="./playlogo.png" style={{ maxWidth: "50px" }} alt="" />
                         <StyledSpan>Play.txt</StyledSpan>
-                    </StyledItem>
-                    <StyledItem onClick={() => openNotepad("Polygon")}>
-                        {/* You can change this ny replacing the file Item1.png in public folder with any logo image of same size */}
-                        <img src="./polygonlogo.png" style={{ maxWidth: "50px" }} alt="" />
-                        <StyledSpan>Polygon.txt</StyledSpan>
                     </StyledItem>
                     <StyledItem onClick={() => openNotepad("Riot")}>
                         {/* You can change this ny replacing the file Riot.png in public folder with any logo image of same size */}
@@ -93,5 +93,3 @@ Explorer.propTypes = {
 
 
 export default Explorer
-
-

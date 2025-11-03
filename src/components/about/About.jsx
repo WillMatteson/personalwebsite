@@ -22,14 +22,14 @@ const About = () => {
     return (
         <div>
             <h2>
-                Will Matteson
+                Lore v11.25 release
             </h2>
             <StyledPara>
-                Hi there! I lead product at <a href="play.ai" target="_blank" rel="noopener noreferrer">play.ai</a>. Most recently I led games product at Polygon Labs, building blockchain products for game developers. Before that I did <b>*REDACTED*</b> at Riot Games.
+                hi there! I work on voice agents at salesforce. 
             </StyledPara>
 
             <StyledPara>
-                Currently building out voice based computing interfaces, spanning agents, text to speech, creator tools, and some things I'm not allowed to talk about yet.
+            before that I made computers speak like humans at play.ai, did <b>*REDACTED*</b> at riot games, and arranged shapes at bain & company. I also worked on a spaceship that got stuck in space.
             </StyledPara>
             <StyledUl >
                 <Styledli>

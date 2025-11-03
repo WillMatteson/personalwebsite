@@ -8,6 +8,7 @@ import Bain from '../work-items/Bain';
 import NASA from '../work-items/NASA';
 import Education from '../work-items/Education';
 import Play from '../work-items/Play';
+import Salesforce from '../work-items/Salesforce';
 import Skills from '../skills/Skills';
 import Misc from '../misc/Misc';
 
@@ -76,6 +77,8 @@ function ContentFactory({ selectedItem }) {
             return <NASA />
         case 'Education':
             return <Education />
+        case 'Salesforce':
+            return <Salesforce />
         case 'Skills':
             return <Skills />
         case 'Misc':
